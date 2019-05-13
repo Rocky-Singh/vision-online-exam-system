@@ -33,6 +33,8 @@
                 </select>
                 <br>
                 <input type="submit" id="start-test" name="start-test"  class="color-button" value="Start Test">
+                <br>
+                <input type="button" id="check-result" name="check-result"  class="color-button" value="Check Result" style="display:none" onclick="location.href='./result.php'">
             </form>
         </div>
     </div>

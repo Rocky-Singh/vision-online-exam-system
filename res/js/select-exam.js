@@ -25,7 +25,6 @@ function updateTest(){
     }
   // display value property of select list (from selected option)
 }
-
 updateTest();
 
 
@@ -34,4 +33,9 @@ function displayProfile(name,email,phone,accountType){
     document.getElementById("display-email").innerHTML=email;
     document.getElementById("display-phone").innerHTML=phone;
     document.getElementById("display-account-type").innerHTML=accountType;
+}
+
+function showResultButton(){
+    //console.log("hello");
+    document.getElementById("check-result").style.display="";
 }

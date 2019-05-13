@@ -56,14 +56,15 @@ select{
     justify-self: center;
     text-align: center;    
 }
-#start-test{
+
+#start-test, #check-result{
     padding: 8px;
     font-size: 19px;
     border: solid 1px #242B2D;
     box-shadow:2px 2px #242B2D;
-    width: 100px !important;
+    min-width: 100px !important;
 }
-#start-test:hover{
+#start-test:hover,  #check-result:hover{
     font-weight: bold;
     color: black;
     /*#242B2D;*/

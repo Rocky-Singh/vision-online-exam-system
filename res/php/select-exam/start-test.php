@@ -17,7 +17,7 @@ if(isset($_POST['start-test']))
     $result_database = $conn->query($sqlQuery);
     $result = $result_database -> fetch_row();
     if($result){
-        echo "<script> callSnackBar('You have already appeared for the test'); </script>";
+        echo "<script> showResultButton(); callSnackBar('You have already appeared for the test'); </script>";
     }
     else{
         header("Location: ./exam.php");

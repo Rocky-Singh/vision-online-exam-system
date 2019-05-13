@@ -8,6 +8,19 @@
     <title>Exam</title>
     <link rel="stylesheet" href="./res/css/exam.css" />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"> </script>
+    <script type="text/javascript">
+    
+    /*
+    window.onbeforeunload = exitCheck;
+    window.onunload = test;
+    function test(){
+       calculateScore();
+
+    }
+    function exitCheck(evt){
+        return "Are you sure you want to leave the page?";    
+    }*/
+    </script>
 </head>
 
 <body>
@@ -46,8 +59,9 @@
         </form>
     </div>
 
-    <script src="./res/js/exam.js"></script>
     <script src="./res/js/show-questions.js"></script>
+    <script src="./res/js/exam.js"></script>
+    
 </body>
 
 </html>
